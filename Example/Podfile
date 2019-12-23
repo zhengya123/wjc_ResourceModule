@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'wjc_ResourceModule_Example' do
+  pod 'wjc_ResourceModule', :path => '../'
+
+  target 'wjc_ResourceModule_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
