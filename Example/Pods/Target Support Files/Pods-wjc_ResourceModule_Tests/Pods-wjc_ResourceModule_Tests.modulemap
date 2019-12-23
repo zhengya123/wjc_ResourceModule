@@ -1,0 +1,6 @@
+framework module Pods_wjc_ResourceModule_Tests {
+  umbrella header "Pods-wjc_ResourceModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

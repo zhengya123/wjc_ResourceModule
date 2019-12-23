@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - wjc_ResourceModule (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - wjc_ResourceModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  wjc_ResourceModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  wjc_ResourceModule: db145ac46129e972fb57ce58027cb2079ca9cac0
+
+PODFILE CHECKSUM: 66bb1ef04b983f7e872b5890857a92b056842449
+
+COCOAPODS: 1.7.2
